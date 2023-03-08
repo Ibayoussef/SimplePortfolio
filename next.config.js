@@ -16,8 +16,4 @@ module.exports = {
   },
   swcMinify: true,
   experimental: { appDir: true },
-  i18n: {
-    locales: ["en-US"],
-    defaultLocale: "en-US",
-  },
 };
