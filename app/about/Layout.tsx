@@ -1,7 +1,6 @@
 "use client";
 import React from "react";
 import PageTitle from "app/components/PageTitle";
-import SlidingText from "./components/slidingtext";
 import { PageWrapper } from "../components/page-wrapper";
 import { LayoutProps } from "../interfaces/LayoutProps";
 
