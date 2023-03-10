@@ -7,7 +7,7 @@ import { LayoutProps } from "../interfaces/LayoutProps";
 const Layout: React.FC<LayoutProps> = ({ children }) => {
   return (
     <PageWrapper>
-      <div className="flex row justify-start items-center">
+      <div className="flex row justify-start items-center max-sm:w-full">
         <PageTitle text={"My Work"} />
         {children}
       </div>

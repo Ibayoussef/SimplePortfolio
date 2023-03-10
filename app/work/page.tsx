@@ -4,7 +4,7 @@ import Grid from "./components/Grid";
 
 const Work: React.FC = () => {
   return (
-    <div className=" h-screen w-[80%] bg-blk overflow-auto  text-white ">
+    <div className=" h-screen w-[80%] bg-blk overflow-auto max-sm:w-full text-white ">
       <Grid />
     </div>
   );

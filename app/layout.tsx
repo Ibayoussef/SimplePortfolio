@@ -6,7 +6,7 @@ export default function RootLayout({ children }) {
     <html>
       <head />
 
-      <body className="overflow-hidden text-blk">
+      <body className="overflow-hidden w-full text-blk">
         <Navbar />
         {children}
       </body>

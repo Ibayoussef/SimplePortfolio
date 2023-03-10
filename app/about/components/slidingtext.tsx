@@ -20,13 +20,13 @@ function SlidingText() {
         animate={{ y: -1300 }}
         exit={{ y: 1100 }}
         transition={{ repeat: Infinity, repeatType: "reverse", duration: 18 }}
-        className="flex-row  text-3xl flex gap-6 absolute z-90 text-browny rotate-[90deg] top-[590px] left-[-550px] "
+        className="flex-row  text-3xl flex gap-6 absolute z-90 text-browny max-sm:hidden rotate-[90deg] top-[590px] left-[-550px] "
       >
         {skills.map((skill) => (
           <p key={skill}>{skill}</p>
         ))}
       </motion.div>
-      <div className="skill-list flex-row  text-3xl flex gap-6 fixed z-90 text-browny  bottom-[10px] left-[0px] ">
+      <div className="skill-list flex-row  text-3xl max-lg:text-2xl flex gap-6 fixed z-90 text-browny  bottom-[10px] left-[0px] max-sm:hidden ">
         {skills.map((skill) => (
           <p key={skill}>{skill}</p>
         ))}

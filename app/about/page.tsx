@@ -11,7 +11,7 @@ const About: React.FC = () => {
     <PageWrapper>
       <div className="flex row justify-start items-center">
         <PageTitle text={"About Me"} />
-        <div className="relative flex h-screen w-full flex-col bg-blk justify-start text-white items-start p-20">
+        <div className="relative flex h-screen w-full flex-col bg-blk justify-start text-white items-start p-20 max-sm:px-2 max-sm:h-[94vh]  max-sm:justify-center">
           <SlidingText />
           {aboutSection.map((aboutText: AboutSection) => (
             <motion.h1

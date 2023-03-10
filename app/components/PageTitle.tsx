@@ -12,7 +12,7 @@ const PageTitle: React.FC<PageTitleProps> = ({ text }) => {
   const condition: (letter: string) => boolean = (letter: string) =>
     letter === "W" || (letter === "M" && text.indexOf(letter) !== 0);
   return (
-    <div className="flex h-screen w-1/4 flex-col justify-start bg-custom-white items-center">
+    <div className="flex h-screen w-1/4 flex-col justify-start bg-custom-white items-center max-sm:hidden">
       <h1 className={"text-5xl h-fit   " + GildaDisplay.className}>2</h1>
       <h1 className="text-3xl uppercase -mt-14">
         {text.split("").map((p) => (
