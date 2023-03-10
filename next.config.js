@@ -11,6 +11,5 @@ module.exports = {
           : "https://simple-portfolio-delta.vercel.app/",
     },
   },
-  swcMinify: true,
   experimental: { appDir: true },
 };
