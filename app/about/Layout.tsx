@@ -2,8 +2,8 @@
 import PageTitle from "app/components/PageTitle";
 import React from "react";
 import SlidingText from "./components/slidingtext";
-import { PageWrapper } from "..//components/page-wrapper";
-import { LayoutProps } from "..//interfaces/LayoutProps";
+import { PageWrapper } from "../components/page-wrapper";
+import { LayoutProps } from "../interfaces/LayoutProps";
 
 const Layout: React.FC<LayoutProps> = ({ children }) => {
   return (
