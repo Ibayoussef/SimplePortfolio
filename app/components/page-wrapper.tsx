@@ -1,5 +1,4 @@
 "use client";
-// @ts-ignore
 import React, { useRef, ReactNode, FC } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { useFollowPointer } from "../hooks/useFollowPointer";
