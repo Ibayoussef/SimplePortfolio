@@ -38,7 +38,7 @@
     "**/*.ts",
     "**/*.tsx",
     ".next/types/**/*.ts"
-  ],
+, "app/hooks/tests/useFollowPointer.test.js"  ],
   "exclude": [
     "node_modules"
   ]

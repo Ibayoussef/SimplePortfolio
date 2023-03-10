@@ -5,8 +5,8 @@ import Image from "next/image";
 function page() {
   return (
     <PageWrapper>
-      <div className="flex row justify-start items-center bg-custom-white">
-        <div className="flex h-screen w-1/2 column justify-center items-center">
+      <div className="flex row justify-start items-start bg-custom-white">
+        <div className="flex h-screen w-1/2 column justify-center items-start">
           <Image
             src="/images/img.png"
             className="w-full "

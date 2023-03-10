@@ -8,10 +8,7 @@ module.exports = {
       url:
         process.env.NODE_ENV === "development"
           ? "http://localhost:3000"
-          : "https://earvinpiamonte-nextjs-tailwindcss-template.vercel.app",
-      title: "Next.js + Tailwind CSS template",
-      description: "Next.js + Tailwind CSS template",
-      socialPreview: "/images/preview.png",
+          : "https://simple-portfolio-delta.vercel.app/",
     },
   },
   swcMinify: true,

@@ -5,12 +5,17 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "cypress": "npx cypress open",
+    "test": "npx cypress run",
+    "generate-css-types": "tailwindcss-classnames -i ./tailwind.config.js -o ./app/classnames.ts"
   },
   "dependencies": {
+    "@cypress/react18": "^2.0.0",
     "@next/font": "^13.2.3",
     "@tailwindcss/forms": "^0.5.0",
     "@tailwindcss/typography": "^0.5.2",
+    "cypress": "^12.7.0",
     "eslint-config-next": "^13.1.1",
     "framer-motion": "^10.2.3",
     "next": "^13.1.1",
@@ -20,8 +25,9 @@
     "swiper": "^9.1.0"
   },
   "devDependencies": {
+    "@testing-library/react": "^14.0.0",
     "@types/node": "^14.17.4",
-    "@types/react": "^17.0.2",
+    "@types/react": "^18.0.28",
     "autoprefixer": "^10.4.4",
     "postcss": "^8.4.12",
     "tailwindcss": "^3.0.24",

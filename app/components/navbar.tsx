@@ -16,7 +16,7 @@ function Navbar() {
   return (
     <nav
       className={
-        "flex w-full py-[10px] justify-center items-center gap-6 bg-custom-white  " +
+        "flex w-full py-[10px] justify-center items-center gap-6 bg-custom-white " +
         GildaDisplay.className
       }
     >
