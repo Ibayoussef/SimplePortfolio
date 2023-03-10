@@ -6,7 +6,7 @@ import { AboutSection } from "./interfaces/AboutSection";
 
 const About: React.FC = () => {
   return (
-    <>
+    <div>
       {aboutSection.map((aboutText: AboutSection) => (
         <motion.h1
           key={aboutText.delay}
@@ -23,7 +23,7 @@ const About: React.FC = () => {
           {aboutText.text}
         </motion.h1>
       ))}
-    </>
+    </div>
   );
 };
 

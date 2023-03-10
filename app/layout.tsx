@@ -1,4 +1,3 @@
-// @ts-ignore
 import "../styles/global.css";
 import Navbar from "./components/navbar";
 
