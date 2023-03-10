@@ -1,4 +1,3 @@
-"use client";
 import React from "react";
 import PageTitle from "app/components/PageTitle";
 import SlidingText from "./components/slidingtext";
