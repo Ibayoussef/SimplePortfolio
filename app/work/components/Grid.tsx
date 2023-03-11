@@ -1,5 +1,4 @@
 "use client";
-
 import "swiper/css";
 import ProjectCard from "./ProjectCard";
 import { Project } from "../Interfaces/Project";

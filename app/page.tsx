@@ -5,7 +5,7 @@ import Image from "next/image";
 function page() {
   return (
     <PageWrapper>
-      <div className="flex row justify-start items-start bg-custom-white">
+      <div className="flex row justify-start items-start bg-primary">
         <div className="flex max-lg:hidden h-screen w-1/2 column justify-center items-center">
           <Image
             src="/images/img.png"

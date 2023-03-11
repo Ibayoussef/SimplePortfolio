@@ -18,8 +18,9 @@ module.exports = {
       },
       colors: {
         "custom-white": "#ffe",
-        browny: "#b28255",
-        blk: "#111",
+        browny: "#DCB16B",
+        blk: "#1E1818",
+        primary: "#fff",
       },
     },
   },

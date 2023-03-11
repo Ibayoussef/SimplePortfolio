@@ -16,14 +16,14 @@ function Navbar() {
   return (
     <nav
       className={
-        "flex w-full py-[10px] justify-center items-center gap-6 bg-custom-white " +
+        "flex w-full py-[10px] justify-center items-center gap-6 bg-primary " +
         GildaDisplay.className
       }
     >
       {urls.map((url) => (
         <Link
           key={url.url}
-          className="uppercase relative z-[999999] font-bold hover:border-b-4 decoration-wavy transition-all"
+          className="uppercase relative z-[999999] font-bold hover:border-b-4 decoration-wavy border-[#DCB16B] transition-all"
           href={url.url}
         >
           {url.name}
