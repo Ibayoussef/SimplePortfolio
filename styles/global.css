@@ -14,3 +14,13 @@
   background-color: #b28255;
   outline: 1px solid slategrey;
 }
+
+body {
+  max-width: 1440px;
+  margin: 0px auto;
+  padding: 0 20px;
+}
+
+html {
+  font-size: clamp(12px, 1vw, 16px);
+}

@@ -3,7 +3,7 @@ import { ButtonProps } from "../Interfaces/ButtonProps";
 import { motion } from "framer-motion";
 const Button: React.FC<ButtonProps> = ({ children, link }) => {
   return (
-    <div className="mt-8 max-sm:mt-6 ">
+    <div className="mt-4 max-sm:mt-6 ">
       <motion.a
         whileHover={{
           opacity: 1,
@@ -15,7 +15,7 @@ const Button: React.FC<ButtonProps> = ({ children, link }) => {
         }}
         href={link}
         target="_blank"
-        className="relative z-[9999] max-sm:px-4 max-sm:py-2 max-sm:text-base  card-button bg-browny px-8 py-4 text-xl rounded-lg"
+        className="relative z-[9999] max-sm:px-4 max-sm:py-2 max-sm:text-base  card-button bg-browny px-4 py-2 text-sm rounded-lg"
       >
         {children}
       </motion.a>

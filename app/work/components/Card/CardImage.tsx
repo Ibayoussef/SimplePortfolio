@@ -10,7 +10,7 @@ const CardImage: React.FC<CardImageProps> = ({ image }) => {
       src={image}
       width={500}
       height={400}
-      className="card-image w-[300px] h-[300px] object-contain"
+      className="card-image w-[200px]  h-[200px] object-contain"
       alt="project_img"
     />
   );

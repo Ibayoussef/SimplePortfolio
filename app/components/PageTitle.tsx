@@ -14,7 +14,7 @@ const PageTitle: React.FC<PageTitleProps> = ({ text }) => {
   return (
     <div className="flex h-screen w-1/4 flex-col justify-start bg-primary items-center max-sm:hidden">
       <h1 className={"text-5xl h-fit   " + GildaDisplay.className}>2</h1>
-      <h1 className="text-3xl uppercase -mt-14">
+      <h1 className="text-xl uppercase -mt-14">
         {text.split("").map((p) => (
           <motion.button
             key={p}

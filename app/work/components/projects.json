@@ -1,16 +1,22 @@
 {
   "projects": [
     {
+      "name": "Visit Tanger",
+      "image": "/images/tanger.png",
+      "url": "https://www.visittanger.com/",
+      "desc": "a website so tourists can check the points of interests in the region of tangier-tetouan and they can generate their own tour"
+    },
+    {
       "name": "Visit Beni Mellal",
       "image": "/images/beni1.png",
       "url": "https://visitbenimellal.com",
-      "desc": "A web application made during working with Casbah Tourism Development, a website so tourists can check the points of interests in the region of beni mellal and they can generate their own tour"
+      "desc": "a website so tourists can check the points of interests in the region of beni mellal and they can generate their own tour"
     },
     {
       "name": "Visit Fes Meknes",
       "image": "/images/fes.svg",
-      "url": "https://visifesmeknes.ma/",
-      "desc": "A web application made during working with Casbah Tourism Development, a website so tourists can check the points of interests in the region of Fes and they can generate their own tour"
+      "url": "https://visitfesmeknes.ma/",
+      "desc": "a website so tourists can check the points of interests in the region of Fes and they can generate their own tour"
     },
     {
       "name": "MemeNation",
@@ -19,10 +25,22 @@
       "url": "https://nft-market-place-ibayoussef.vercel.app/"
     },
     {
+      "name": "Tremau/nima",
+      "image": "/images/tremau.svg",
+      "desc": "Worked with Tremau creating a social management tool for content moderation",
+      "url": "https://tremau.com/"
+    },
+    {
       "name": "ChessGame",
       "image": "/images/chess.png",
       "desc": "Made a javascript chess game using ES6",
       "url": "https://ibayoussef.github.io/Chess-Game/"
+    },
+    {
+      "name": "Minecraft",
+      "image": "/images/minecraft.png",
+      "desc": "Minecraft clone created with Reactjs and Threejs as an experimental project",
+      "url": "https://minecraft-mpctl37db-ibayoussef.vercel.app/"
     },
     {
       "name": "ThreejsPortfolio",
